@@ -1,0 +1,168 @@
+<div style="text-align: left; background-color: black; color: green;">
+
+    <span class="loading1"> CONEXIÓN ESTABLECIDA: </span>
+    <span class="loading2"> CARGANDO ARCHIVOS: </span>
+    <span class="loading3">
+        ../sdcard/WhatsApp/Media/Enviadas/Imagenes &#x2611
+    </span>
+    <span class="loading4">
+        ../sdcard/WhatsApp/Media/Enviadas/Videos &#x2611
+    </span>
+    <span class="loading5"> CARGA FINALIZADA EXITOSAMENTE: </span>
+    <span class="loading6"> CONEXIÓN FINALIZADA: </span>
+    <span class="typing">
+        Ya tengo todas las imagenes y videos que enviaste por WhatsApp... &#128520;
+    </span>
+    <span class="typing2"> Ahora si te puedo invitar a mi cumple, 35 no son nada &#128526;  </span>
+    <br>
+    <br>
+
+    <span class="typing3"> TE ESPERO EL DOMINGO TIPO 14:00 HORAS EN CASA...  &#128526;  </span>
+    <span class="typing3">   &#128526;  </span>
+</div>
+
+<style>
+    body {
+        background-color: black;
+    }
+
+    .typing {
+        display: block;
+        font-family: monospace;
+        white-space: nowrap;
+        width: 69ch;
+        border-right: 4px solid;
+        animation: 0s fadeIn, typing 8s steps(69), blink .0s infinite step-end ;
+        animation-fill-mode: forwards;
+        animation-delay: 6s;
+        overflow: hidden;
+        visibility: hidden;
+    }
+
+    
+    .typing2 {
+        /* animation: 21s fadeIn, parpadeo 1s infinite; */
+        display: block;
+        font-family: monospace;
+        white-space: nowrap;
+        width: 57ch;
+        border-right: 4px solid;
+        animation: 0s fadeIn, typing 5s steps(57), blink .5s infinite step-end alternate;
+        animation-fill-mode: forwards;
+        animation-delay: 16s;
+        overflow: hidden;
+        visibility: hidden;
+    }
+
+    .loading1 {
+        display: block;
+        font-family: monospace;
+        animation: 1s fadeIn;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+    }
+
+    .loading2 {
+        display: block;
+        font-family: monospace;
+        animation: 2s fadeIn;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+    }
+
+    .loading3 {
+        display: block;
+        font-family: monospace;
+        animation: 3s fadeIn;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+    }
+
+    .loading4 {
+        display: block;
+        font-family: monospace;
+        animation: 4s fadeIn;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+    }
+
+    .loading5 {
+        display: block;
+        font-family: monospace;
+        animation: 5s fadeIn;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+    }
+
+    .loading6 {
+        display: block;
+        font-family: monospace;
+        animation: 6s fadeIn, parpadeo 1s infinite;
+        animation-fill-mode: forwards;
+        visibility: hidden;
+    }
+
+    @-moz-keyframes parpadeo {
+        0% {
+            opacity: 1.0;
+        }
+
+        50% {
+            opacity: 0.0;
+        }
+
+        100% {
+            opacity: 1.0;
+        }
+    }
+
+    @-webkit-keyframes parpadeo {
+        0% {
+            opacity: 1.0;
+        }
+
+        50% {
+            opacity: 0.0;
+        }
+
+        100% {
+            opacity: 1.0;
+        }
+    }
+
+    @keyframes parpadeo {
+        0% {
+            opacity: 1.0;
+        }
+
+        50% {
+            opacity: 0.0;
+        }
+
+        100% {
+            opacity: 1.0;
+        }
+    }
+
+    @keyframes fadeIn {
+        99% {
+            visibility: hidden;
+        }
+
+        100% {
+            visibility: visible;
+        }
+    }
+
+    @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+
+    @keyframes blink {
+        50% {
+            border-color: transparent
+        }
+    }
+</style>
