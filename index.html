@@ -16,9 +16,7 @@
     <span class="typing2"> Ahora si te puedo invitar a mi cumple, 35 no son nada &#128526;  </span>
     <br>
     <br>
-
     <span class="typing3"> TE ESPERO EL DOMINGO TIPO 14:00 HORAS EN CASA...  &#128526;  </span>
-    <span class="typing3">   &#128526;  </span>
 </div>
 
 <style>
@@ -47,9 +45,23 @@
         white-space: nowrap;
         width: 57ch;
         border-right: 4px solid;
-        animation: 0s fadeIn, typing 5s steps(57), blink .5s infinite step-end alternate;
+        animation: 0s fadeIn, typing 8s steps(57), blink .0s infinite step-end alternate;
         animation-fill-mode: forwards;
         animation-delay: 16s;
+        overflow: hidden;
+        visibility: hidden;
+    }
+
+    .typing3 {
+        /* animation: 21s fadeIn, parpadeo 1s infinite; */
+        display: block;
+        font-family: monospace;
+        white-space: nowrap;
+        width: 57ch;
+        border-right: 4px solid;
+        animation: 0s fadeIn, typing 5s steps(57), blink .0s infinite step-end alternate;
+        animation-fill-mode: forwards;
+        animation-delay: 30s;
         overflow: hidden;
         visibility: hidden;
     }
